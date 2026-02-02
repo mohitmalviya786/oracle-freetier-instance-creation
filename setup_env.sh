@@ -126,7 +126,10 @@ OCI_SUBNET_ID=$SUBNET_ID
 OCI_IMAGE_ID=$IMAGE_ID
 # The following will be ignored if OCI_IMAGE_ID is specified
 OPERATING_SYSTEM=Canonical Ubuntu
-OS_VERSION=22.04
+OS_VERSION=24.04
+ASSIGN_PUBLIC_IP=true
+# Boot volume size in GB (minimum is 50)
+BOOT_VOLUME_SIZE=190
 
 # Gmail Notification
 NOTIFY_EMAIL=$BOOL_MAIL
